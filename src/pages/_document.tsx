@@ -37,6 +37,7 @@ export default function MyDocument() {
   );
 }
 
+/* ⨯ [Error: `getInitialProps` in Document component is not supported with the Edge Runtime.]
 MyDocument.getInitialProps = async (ctx: DocumentContext) => {
   const cache = createCache();
   const originalRenderPage = ctx.renderPage;
@@ -62,3 +63,4 @@ MyDocument.getInitialProps = async (ctx: DocumentContext) => {
     ),
   };
 };
+*/

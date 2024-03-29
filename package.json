@@ -10,7 +10,6 @@
   },
   "dependencies": {
     "@ant-design/icons": "^5.3.5",
-    "@hoomanize/65Villa.com": "https://hoomanize.com/api/projects/c76fe7eb-4ed6-49b3-accd-9adb839b9310/releases/latest/d14710fe-f5ba-4056-938c-1f232137f512/package.tgz",
     "antd": "^5.15.3",
     "axios": "^1.6.8",
     "leaflet": "^1.9.4",

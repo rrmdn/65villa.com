@@ -20,7 +20,7 @@ import {
   BiMapPin,
 } from "react-icons/bi";
 
-export const runtime = "edge";
+export const runtime = "experimental-edge";
 
 const { useBreakpoint } = Grid;
 

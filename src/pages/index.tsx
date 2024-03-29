@@ -20,6 +20,8 @@ import {
   BiMapPin,
 } from "react-icons/bi";
 
+export const runtime = "edge";
+
 const { useBreakpoint } = Grid;
 
 const VillaMap = dynamic(() => import("@/components/VillaMap"), {

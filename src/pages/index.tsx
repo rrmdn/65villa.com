@@ -12,15 +12,7 @@ import rooftopJpg from "../../public/images/rooftop.jpg";
 import dynamic from "next/dynamic";
 import React from "react";
 import Icon from "@ant-design/icons/lib/components/Icon";
-import {
-  BiLocationPlus,
-  BiLogoAirbnb,
-  BiLogoWhatsapp,
-  BiMapAlt,
-  BiMapPin,
-} from "react-icons/bi";
-
-export const runtime = "experimental-edge";
+import { BiLogoAirbnb, BiLogoWhatsapp, BiMapAlt } from "react-icons/bi";
 
 const { useBreakpoint } = Grid;
 

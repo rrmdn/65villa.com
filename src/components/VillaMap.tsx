@@ -7,8 +7,9 @@ const lngOffset = 0.003;
 
 const center: LatLngExpression = [-7.8855452, 112.5335344 + lngOffset];
 
+// mapbox with x token
 const mapUrl =
-  "https://tiles.stadiamaps.com/tiles/alidade_smooth/{z}/{x}/{y}{r}.png";
+  "https://api.mapbox.com/styles/v1/mapbox/light-v11/tiles/{z}/{x}/{y}{r}?access_token=pk.eyJ1IjoicnJtZG4iLCJhIjoiY2x1ZHF5djF0MTlyZTJqcXU4cGN6bDd0MyJ9.WnyfWJzMI5LDnnPqgFYMkQ";
 
 const nearbyLocations: Array<{
   position: LatLngExpression;

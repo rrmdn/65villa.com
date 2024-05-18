@@ -31,7 +31,7 @@ export default function MyDocument() {
       <body>
         <Main />
         <NextScript />
-        <script defer data-domain="65villa.com" src="https://plausible.io/js/script.js"></script>
+        <script defer data-domain="65villa.com" src="https://plausible.rrmdn.com/js/script.js"></script>
       </body>
     </Html>
   );
